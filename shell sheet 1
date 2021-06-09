@@ -1,0 +1,94 @@
+eliwa010@ubuntu:/$ sudo su
+[sudo] password for eliwa010: 
+root@ubuntu:/# cd /home
+root@ubuntu:/home# mkdir task
+root@ubuntu:/home# ls
+eliwa010  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# mkdir eliwa1 eliwa2
+root@ubuntu:/home/task# ls
+eliwa1  eliwa2
+root@ubuntu:/home/task# cd eliwa1
+root@ubuntu:/home/task/eliwa1# cat > file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@ubuntu:/home/task/eliwa1# cat file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@ubuntu:/home/task/eliwa1# cat > file2.txt
+this is file 2
+Mahmoud Ali Ahmed
+operating system
+root@ubuntu:/home/task/eliwa1# cat > file3.txt
+^C
+root@ubuntu:/home/task/eliwa1# cat file3.txt
+root@ubuntu:/home/task/eliwa1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/eliwa1# cp file1.txt /home/task/eliwa2
+root@ubuntu:/home/task/eliwa1# cd ../
+root@ubuntu:/home/task# cd eliwa2
+root@ubuntu:/home/task/eliwa2# ls
+file1.txt
+root@ubuntu:/home/task/eliwa2# cd ../..
+root@ubuntu:/home# ls |grep a|grep A
+root@ubuntu:/home# ls
+eliwa010  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# ls |grep a|grep A
+root@ubuntu:/home/task# ls 
+eliwa1  eliwa2
+root@ubuntu:/home/task# cd eliwa1
+root@ubuntu:/home/task/eliwa1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/eliwa1# cat > eliwa.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@ubuntu:/home/task/eliwa1# cat > eliwa.txt
+dfhghdghdg^C
+root@ubuntu:/home/task/eliwa1# ls
+eliwa.txt  eliwa.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/eliwa1# ls |grep a|grep A
+root@ubuntu:/home/task/eliwa1# ls | grep a| grep A
+root@ubuntu:/home/task/eliwa1# ls
+eliwa.txt  eliwa.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/eliwa1# ls | grep a
+eliwa.txt
+root@ubuntu:/home/task/eliwa1# ls | grep A
+eliwa.txt
+root@ubuntu:/home/task/eliwa1# ls | wc-1
+wc-1: command not found
+root@ubuntu:/home/task/eliwa1# ls | wc-l
+wc-l: command not found
+root@ubuntu:/home/task/eliwa1# ls | wc l
+wc: l: No such file or directory
+root@ubuntu:/home/task/eliwa1# ls | Wc-l
+Wc-l: command not found
+root@ubuntu:/home/task/eliwa1# ls | WC-l
+WC-l: command not found
+root@ubuntu:/home/task/eliwa1# ls -1 | wc -l
+5
+root@ubuntu:/home/task/eliwa1# ls | wc -l
+5
+root@ubuntu:/home/eliwa010# touch language.c
+root@ubuntu:/home/eliwa010# gcc -o helloeliwa language.c
+root@ubuntu:/home/eliwa010# ./a.out language c
+oot@ubuntu:/home/eliwa010# date
+Thu 3 jun 2021 10:12:33 AM PDT
+root@ubuntu:/home/eliwa010# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@ubuntu:/home/eliwa010# pwd
+/home/eliwa010
